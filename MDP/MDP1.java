@@ -24,6 +24,9 @@ public class FirstMDP
 	DomainGenerator dg;
 	State initState;
 	int numState;
+	TerminalFunction tf;
+	DiscreteStateHashFactory hashfactory;
+	
 	
 	public FirstMDP(double p1,double p2,double p3,double p4){
 		this.numStates = 6;
